@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Section 5: Advanced JavaScript: Objects and Functions</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <script src="script.js"></script>
+        <h1 style="font-family: cursive">Tic Tac Toe Game</h1>
+        
+        <div class="container">
+            <div id="signDiv">Choose your Sign
+                <input type="radio" value ="X" name="sign">X
+                <input type="radio" value ="O" name="sign">O
+                <button onclick="startGame(this)" id="start">Start Game</button>
+            </div>
+            
+            <br><br>
+            
+            <div class="playerTurn" id="playerTurn"></div>
+            
+            <br><br>
+            
+            <table class ="tgroup">
+                <tr>
+                    <td id="0" onclick ="showIcon(this)"> </td>
+                    <td id="1" onclick ="showIcon(this)"> </td>
+                    <td id="2" onclick ="showIcon(this)"> </td>
+                </tr>
+                <tr>
+                    <td id="3" onclick ="showIcon(this)"> </td>
+                    <td id="4" onclick ="showIcon(this)"> </td>
+                    <td id="5" onclick ="showIcon(this)"> </td>
+                </tr>
+                <tr>
+                    <td id="6" onclick ="showIcon(this)"> </td>
+                    <td id="7" onclick ="showIcon(this)"> </td>
+                    <td id="8" onclick ="showIcon(this)"> </td>
+                </tr> 
+            </table>
+        
+        </div>
+        
+    </body>
+</html>
